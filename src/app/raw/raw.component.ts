@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-raw',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './raw.component.html',
   styleUrl: './raw.component.css'
 })

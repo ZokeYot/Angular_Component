@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-personality',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './personality.component.html',
   styleUrl: './personality.component.css'
 })

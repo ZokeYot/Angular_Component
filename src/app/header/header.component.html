@@ -1,1 +1,22 @@
-<p>header works!</p>
+<section class="container px-6 mx-auto">
+  <div class="px-6 text-gray-800 md:px-12 lg:text-left xl:px-52">
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(1)">{{ text }}</h1>
+    </div>
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(2)">{{ text }}</h1>
+    </div>
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(3)">{{ text }}</h1>
+    </div>
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(4)">{{ text }}</h1>
+    </div>
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(5)">{{ text }}</h1>
+    </div>
+    <div class="border-black px-2 py-2 my-2">
+      <h1 [ngClass]="getHeaderLevel(6)">{{ text }}</h1>
+    </div>
+  </div>
+</section>

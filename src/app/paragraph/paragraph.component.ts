@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-paragraph',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './paragraph.component.html',
   styleUrl: './paragraph.component.css'
 })
 export class ParagraphComponent {
-
+  text : String = "This is a paragraph";
 }

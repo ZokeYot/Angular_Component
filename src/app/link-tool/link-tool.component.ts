@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-link-tool',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './link-tool.component.html',
   styleUrl: './link-tool.component.css'
 })
